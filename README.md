@@ -1,6 +1,8 @@
 # Gerenciador de Tarefas
 
-Um gerenciador de tarefas simples e dinâmico feito com React, Next.js, TypeScript e Tailwind CSS. Permite adicionar tarefas com título e descrição, que são armazenadas no Local Storage do navegador para persistência dos dados.
+Aplicação web simples para gerenciar tarefas, feita com React, Next.js, TypeScript e Tailwind CSS.  
+
+Permite adicionar tarefas com título e descrição, marcar tarefas como concluídas ao clicar nelas e deletar tarefas. Todos os dados são armazenados no Local Storage para manter a persistência entre sessões.
 
 ---
 
@@ -16,9 +18,12 @@ Um gerenciador de tarefas simples e dinâmico feito com React, Next.js, TypeScri
 ## 📋 Funcionalidades
 
 - Adicionar tarefas com título e descrição
+- Marcar tarefas como concluídas/incompletas clicando nelas
+- Deletar tarefas individuais
 - Armazenar tarefas no Local Storage para persistência entre sessões
 - Interface responsiva e estilizada com Tailwind CSS
-- Desenvolvido em TypeScript para maior segurança de tipos
+- Desenvolvido em TypeScript com tipagem clara para tarefas (`id`, `title`, `description`, `isCompleted`)
+- Utiliza o modo client do Next.js (`"use client";`) para garantir interatividade
 
 ---
 
